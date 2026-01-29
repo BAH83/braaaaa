@@ -80,7 +80,7 @@ button:hover {
 <body>
 
 <div class="container">
-    <img src="c:\Users\Mr BAH\Desktop\Nouveau dossier\Black and White Modern My Way Wattpad Book Cover.JPG" class="cover" alt="Couverture du livre">
+    <img src="couverture.JPG" class="cover" alt="Couverture du livre" onclick="openBook()">
     <h1>Mon Livre Numérique</h1>
 
     <div class="buttons">
@@ -96,7 +96,7 @@ button:hover {
 function openBook() {
     var viewer = document.getElementById("viewer");
     viewer.style.display = "block";
-    viewer.src = "Le Code Youtube.pdf";
+    viewer.src = "livre.pdf";
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
 }
 </script>
